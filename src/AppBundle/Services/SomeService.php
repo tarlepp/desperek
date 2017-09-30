@@ -31,6 +31,6 @@ class SomeService
      */
     public function isOpen(): bool
     {
-        $this->em->isOpen();
+        return $this->em->isOpen();
     }
 }
